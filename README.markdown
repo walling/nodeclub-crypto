@@ -1,7 +1,7 @@
 License
 =======
 
-(C) 2011 [Bjarke Walling](https://twitter.com/#!/walling).
+© 2011 [Bjarke Walling](https://twitter.com/#!/walling).
 
 Permission is granted to use, modify, and / or redistribute at will.
 
