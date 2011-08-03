@@ -12,7 +12,7 @@ exports.sign = function(message, context) {
 	var to_be_signed;
 	if (typeof message === 'string') {
 		to_be_signed = context + message;
-		return message + hmac(message, shared_secret_key, 'urlsafe');
+		return message + hmac(to_be_signed, shared_secret_key, 'urlsafe');
 	} else {
 		to_be_signed = context + message.toString('base64');
 		signed = new Buffer(message.length + 20);
